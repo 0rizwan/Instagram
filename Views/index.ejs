@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log in • Instagram</title>
+  <link rel="shortcut icon" href="../Static/img/favicon-insta.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/resp.css" />
+  <script src="../Static/js/script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="form">
+        <div class="logo">
+          <img src="../Static/img/instagram.jpeg" alt="instagram logo" />
+        </div>
+
+        <form action="/login" method="post">
+          <div class="all-inputs">
+            <input type="text" required id="email" name="email"
+              placeholder="Phone number, username, or email address" />
+
+            <input type="password" requiredsig id="password" name="password" placeholder="Password" />
+          </div>
+          <div class="all-buttons">
+            <input class="btn" type="submit" value="Log in" disabled />
+          </div>
+
+          <div class="or">
+            <hr />
+            <div>OR</div>
+            <hr />
+          </div>
+          <div class="fb-login-wrapper">
+            <button type="button">
+              <span><img src="../Static/img/download-facebook-logo.png" width="16px" alt="" /></span>
+              <span class="login-facebook">Log in with Facebook</span>
+            </button>
+          </div>
+          <a class="forget" href="#" role="link">Forgotten your password?</a>
+        </form>
+      </div>
+      <div class="link">
+        <p>
+          Don't have an account?
+          <a href="//www.instagram.com/accounts/emailsignup/">Sign up</a>
+        </p>
+      </div>
+
+      <div class="get">
+        <div class="para">
+          <p>Get the app.</p>
+        </div>
+        <div class="icon">
+          <img src="../Static/img/googleplay.jpeg" alt="Google play" />
+          <img src="../Static/img/microsoft.png" alt="Microsoft" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="parent-meta">
+      <div class="meta-details">
+        <div>Meta</div>
+        <div>About</div>
+        <div>Blog</div>
+        <div>Jobs</div>
+        <div>Help</div>
+        <div>API</div>
+        <div>Privacy</div>
+        <div>Terms</div>
+        <div>Top Accounts</div>
+        <div>Locations</div>
+        <div>Instagram Lite</div>
+        <div>Contact Uploading & Non-Users</div>
+      </div>
+      <div class="ig-2023">
+        <div>&copy 2022 Instagram from Meta</div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

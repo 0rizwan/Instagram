@@ -1,0 +1,22 @@
+@media screen and (max-width:600px) {
+body{
+    background-color: white;
+}
+    .form {
+        border: none;
+        margin-top: 8rem;
+    }
+
+    .link {
+        margin-top: 15rem;
+        border: none;
+    }
+
+    .get {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}

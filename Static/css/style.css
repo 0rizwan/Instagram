@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(250, 250, 250);
+}
+
+.container {
+    margin: auto;
+    width: 22rem;
+    height: 39rem;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.form {
+    /* background:  black; */
+    height: 25rem;
+    border: 1px solid rgb(219, 219, 219);
+    background: white;
+
+}
+
+.logo {
+    margin-top: 8px;
+    cursor: pointer;
+    height: 8rem;
+    /* background:red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 11rem;
+}
+
+.form form {
+    /* background: yellow; */
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.or {
+    /* height: 2rem; */
+    /* background-color: red; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.or div {
+    margin: 0 1rem;
+    font-size: .7rem;
+    color: grey;
+}
+.or hr {
+    width: 6.5rem;
+    height: 0;
+    /* border-color: grey; */
+    border: 0.1px 0 0 0 solid rgb(219, 219, 219);
+}
+.all-inputs {
+    /* background: grey; */
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all-inputs input {
+    height: 2.5rem;
+    width: 16rem;
+    font-size: .7rem;
+    padding-left: .5rem;
+    box-sizing: border-box;
+    background: rgb(250, 250, 250);
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+
+}
+
+.all-inputs input:focus {
+    outline: none;
+}
+
+.all-buttons {
+    height: 4rem;
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.btn {
+    height: 2rem;
+    width: 16rem;
+    background: rgb(84, 187, 255);
+    /* background: rgb(0, 149, 246); */
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.all-buttons a {
+    margin-top: .5rem;
+    height: 2rem;
+    width: 16rem;
+}
+
+/* .btn:hover {
+    border: 3px solid darkblue;
+    color: darkblue;
+} */
+.fb-login-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.fb-login-wrapper button {
+   border: none;
+   background: none;
+}
+.fb-login-wrapper img {
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
+.login-facebook {
+    color: #385185;
+    font-weight: 700;    
+}
+.forget {
+    text-decoration: none;
+    color: rgb(0, 55, 107);
+    font-size: 12px;
+    line-height: 16px;
+    font-family: system-ui, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.link {
+    background: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+}
+.link p {
+   opacity: 90%;
+}
+
+.link p a {
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.get {
+    height: 6rem;
+    /* background: red; */
+    margin-bottom: 2rem;
+
+}
+
+.para {
+    /* background-color: yellow; */
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para p {
+    opacity: 90%;
+}
+
+.icon {
+    height: 6rem;
+    width: 17rem;
+    margin: auto;
+    /* margin-bottom: 1rem; */
+    /* background: green; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon img {
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.parent-meta {
+    /* margin-bottom: 1.2rem; */
+    /* background: red; */
+    height: 5rem;
+}
+.meta-details {
+    height: 3.5rem;
+    /* background-color: black; */
+}
+.ig-2023 {
+    font-size: 12px;
+    height: 1.5rem;
+    /* background-color: blue; */
+}
+.meta-details, .ig-2023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(142, 142, 142);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.meta-details div {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+}
